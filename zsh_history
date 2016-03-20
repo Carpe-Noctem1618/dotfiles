@@ -1,0 +1,950 @@
+: 1457866729:0;source ~/.zshrc
+: 1457866733:0;..
+: 1457866735:0;ls
+: 1457866748:0;la
+: 1457866750:0;ls
+: 1457866751:0;ll
+: 1457866758:0;ls -a
+: 1457866762:0;clear
+: 1457866793:0;wtf
+: 1457866801:0;rtfm
+: 1457866830:0;sz
+: 1457866833:0;ls
+: 1457866928:798;refreshbrew
+: 1457867747:0;ls
+: 1457867765:3;rm zsh-alias
+: 1457867769:0;ls
+: 1457867778:0;cd zsh
+: 1457867779:0;ls
+: 1457867787:656;vim z.zsh
+: 1457868462:0;ls
+: 1457868501:0;mv z.zsh zdir/z.zsh
+: 1457868506:0;cd zdir
+: 1457868507:0;ls
+: 1457868632:9;vim z.zsh
+: 1457868657:0;cd
+: 1457868658:0;ls
+: 1457868668:0;z src
+: 1457868673:0;ls
+: 1457868678:0;z src
+: 1457868683:0;source ~/.zshrc
+: 1457868720:0;touch ~/dotfiles/zsh/zdir/zdata
+: 1457868724:0;source ~/.zshrc
+: 1457868741:0;vim z.zsh
+: 1457868762:0;cd dotfiles
+: 1457868763:0;ls
+: 1457868773:0;cd zsh
+: 1457868774:0;ls
+: 1457868778:0;cd zdir
+: 1457868778:0;ls
+: 1457868790:0;make
+: 1457868810:0;/configure
+: 1457868829:0;sudo make %% make install
+: 1457868841:0;..
+: 1457868842:0;ls
+: 1457868852:0;make zdir
+: 1457868857:0;z
+: 1457869035:0;vim ~/.zshrc
+: 1457869053:0;zs
+: 1457869056:0;sz
+: 1457869082:0;clear
+: 1457869084:0;ls
+: 1457869093:0;rm -rf zdir
+: 1457869121:0;git clone https://github.com/rupa/z.git
+: 1457869123:0;ls
+: 1457869135:0;vim ~/.zshrc
+: 1457869155:0;source ~/.zshrc
+: 1457869182:0;touch ~/.z
+: 1457869184:0;source ~/.zshrc
+: 1457869186:0;z
+: 1457869191:0;clear
+: 1457869407:0;cd .vim/
+: 1457869411:0;cd ~/.vim
+: 1457869416:0;cd bundle
+: 1457869416:0;ls
+: 1457869433:0;cd YouCompleteMe
+: 1457869447:0;git submodule update --init --recursive
+: 1457868418:1;git clone https://github.com/rupa/z.git ~/dotfiles/zsh/zdir
+: 1457868421:0;ls
+: 1457868425:0;cd zdir
+: 1457868425:0;ls
+: 1457868515:110;vim ~/.zshrc
+: 1457869481:0;cd
+: 1457869485:0;which python
+: 1457869495:0;which python3
+: 1457869515:0;which cmake
+: 1457869540:0;mkdir ~/ycm_build
+: 1457869544:0;cd ycm_build
+: 1457869546:0;clear
+: 1457869676:0;jedi
+: 1457869686:0;brew info jedi
+: 1457869693:4;brew search py
+: 1457869745:4;brew search jed
+: 1457869749:0;clear
+: 1457870157:0;cd 
+: 1457870161:0;cd dow
+: 1457870172:0;cd
+: 1457870177:0;cd downloads
+: 1457870178:0;ls
+: 1457870191:51;ex clang+llvm-3.8.0-x86_64-apple-darwin.tar.xz
+: 1457870251:5;vim
+: 1457870279:64;tar -x clang+llvm-3.8.0-x86_64-apple-darwin.tar.xz
+: 1457870458:0;mv clang+llvm-3.8.0-x86_64-apple-darwin.tar.xz ~/ycm_temp
+: 1457870467:0;cd ~/ycm_temp
+: 1457870494:0;cd
+: 1457870495:0;ls
+: 1457870506:0;source ~/.zshrc
+: 1457870507:0;ls
+: 1457870509:0;clear
+: 1457870510:0;ls
+: 1457870533:0;tar -xf ycm_temp
+: 1457870561:0;ls
+: 1457870569:0;cd ycm_build
+: 1457870570:0;ls
+: 1457870583:0;cd ycm_temp
+: 1457870599:0;rm -rf ycm_temp
+: 1457870600:0;ls
+: 1457870606:0;cd
+: 1457870613:0;ls
+: 1457870621:0;cd ycm_temp
+: 1457870623:0;ls
+: 1457870626:0;rm -rf ycm_temp
+: 1457870627:0;ls
+: 1457871379:0;cd ycm_temp
+: 1457871385:0;cd
+: 1457871397:0;cd ycm_build
+: 1457871398:0;ls
+: 1457871562:0;cmake -G "<generator>" -DPATH_TO_LLVM_ROOT=~/ycm_temp/llvm_root_dir . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
+: 1457871609:0;cmake -G Unix Makefiles -DPATH_TO_LLVM_ROOT=~/ycm_temp/llvm_root_dir . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
+: 1457871651:0;cmake -G "Unix Makefiles" -DPATH_TO_LLVM_ROOT=~/ycm_temp/llvm_root_dir . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
+: 1457871679:0;ls
+: 1457871733:0;cmake --build . --target ycm_core --config Release
+: 1457871775:0;cd
+: 1457871779:0;go env
+: 1457871815:0;npm
+: 1457871866:0;xbuild
+: 1457871876:0;mono
+: 1457871912:0;node
+: 1457872409:0;pip3
+: 1457872444:0;python3 -v
+: 1457872505:0;version pytthon3
+: 1457872515:0;python3 --version
+: 1457872579:0;cd
+: 1457872583:0;rust
+: 1457872586:0;rustc
+: 1457872625:0;npm -g typescript
+: 1457872649:0;npm install -g typescript
+: 1457872680:0;brew search mono
+: 1457872687:0;brew info mono
+: 1457872718:0;brew search omnisharp
+: 1457873398:0;cd .vim/bundle/YouCompleteMe
+: 1457873398:0;ls
+: 1457873503:0;brew info mono
+: 1457873532:0;brew search mono
+: 1457873843:0;brew info xamarin
+: 1457874186:0;brew install mono
+: 1457875171:0;mono
+: 1457875349:0;cd third_party/ycmd/third_party/OmniSharpServer
+: 1457875351:0;ls
+: 1457875354:0;xbuild
+: 1457875385:0;..
+: 1457875388:0;ls
+: 1457875395:0;cd gocode
+: 1457875416:0;go build
+: 1457875463:0;..
+: 1457875464:0;ls
+: 1457875473:0;cd tern_runtime
+: 1457875475:0;ls
+: 1457875507:0;npm install --production
+: 1457875562:0;npm install -g typescript
+: 1457875569:0;npm install --production
+: 1457875595:0;..
+: 1457875596:0;ls
+: 1457875606:0;cd racerd
+: 1457875607:0;ls
+: 1457875624:0;cargo build --release
+: 1457879805:0;cd ~/.vim/bundle/YouCompleteMe
+: 1457879806:0;ls
+: 1457879842:0;./install.py --all
+: 1457880280:0;m
+: 1457880284:0;vim
+: 1457880305:0;clear
+: 1457880328:0;cd ~/Development/Javascript
+: 1457880329:0;ls
+: 1457880340:0;cd practice
+: 1457880340:0;ls
+: 1457880345:0;vim triangle.js
+: 1457893345:0;ls
+: 1457893363:0;z /Users/VoxAir1618/.vim
+: 1457893364:0;ls
+: 1457893365:0;clear
+: 1457893375:0;cd bundle
+: 1457893375:0;ls
+: 1457893378:0;ls -a
+: 1457893382:0;cd nerdtree
+: 1457893382:0;ls
+: 1457893391:0;less README.markdown
+: 1457893709:0;ls -a
+: 1457893718:0;ls -a ~/
+: 1457893956:0;ls
+: 1457893958:0;cd
+: 1457893959:0;clear
+: 1457893960:0;ls
+: 1457893963:0;prompt
+: 1457893984:0;cd ~/.vim
+: 1457893985:0;ls
+: 1457893986:0;clear
+: 1457893988:0;cd bundle
+: 1457893988:0;ls
+: 1457893997:0;vim ~/.vimrc
+: 1457894009:0;ls
+: 1457894018:0;z .vim
+: 1457894021:0;ls
+: 1457894025:0;cd bundle
+: 1457894026:0;ls
+: 1457894031:0;cd nerdtree
+: 1457894032:0;ls
+: 1457894034:0;clear
+: 1457894038:0;less README.markdown
+: 1457894308:0;cd ~/dotfiles
+: 1457894309:0;ls
+: 1457894372:0;mkdir vim-files
+: 1457894373:0;ls
+: 1457894377:0;cd vim-files
+: 1457894378:0;ls
+: 1457894412:0;touch NERDTree.vim
+: 1457894436:0;touch youCompleteMe.vim
+: 1457894456:0;touch delimitMate.vim
+: 1457894466:0;touch syntastic.vim
+: 1457894528:0;touch appearance.vim
+: 1457894585:0;ls
+: 1457894594:0;vim NERDTree.vim
+: 1457898298:0;ls
+: 1457898301:0;..
+: 1457898302:0;ls
+: 1457898311:0;cd vim-javascript
+: 1457898311:0;ls
+: 1457898315:0;less README.md
+: 1457898479:0;ls
+: 1457898529:0;vim vim-javascript.vim
+: 1457898754:0;ls
+: 1457899154:0;..
+: 1457899154:0;ls
+: 1457899160:0;git clone https://github.com/Raimondi/delimitMate.git
+: 1457899512:0;ls
+: 1457899515:0;vim delimitMate.vim
+: 1457913445:0;ls
+: 1457913661:0;cd delimitMate
+: 1457913661:0;ls
+: 1457913665:0;less README.md
+: 1457913681:0;clear
+: 1457913683:0;less README.md
+: 1457914220:0;..
+: 1457914221:0;ls
+: 1457914249:0;git clone https://github.com/scrooloose/syntastic.git
+: 1457914263:0;cd
+: 1457914271:0;cd Development/Elixir
+: 1457914271:0;ls
+: 1457914276:0;..
+: 1457914277:0;ls
+: 1457914280:0;cd c
+: 1457914281:0;ls
+: 1457914286:0;cd ex6
+: 1457914286:0;ls
+: 1457914291:0;l..
+: 1457914292:0;ls
+: 1457914293:0;,,
+: 1457914294:0;ls
+: 1457914295:0;..
+: 1457914297:0;ls
+: 1457914305:0;cd ex8
+: 1457914306:0;ls
+: 1457914311:0;ls -a
+: 1457914318:0;..
+: 1457914328:0;cd exercise-11
+: 1457914329:0;ls
+: 1457914333:0;vim ex11.c
+: 1457914709:0;ls
+: 1457914724:0;..
+: 1457914726:0;ls
+: 1457914742:0;\
+\
+
+: 1457914743:0;ls
+: 1457914745:0;..
+: 1457920223:0;ls -a
+: 1457920226:0;cd syntastic
+: 1457920227:0;ls
+: 1457920231:0;cd syntax_checkers
+: 1457920231:0;ls
+: 1457920235:0;cd go
+: 1457920236:0;ls
+: 1457920245:0;vim go.vim
+: 1457920286:0;..
+: 1457920288:0;ls
+: 1457920300:0;vim
+: 1457920646:0;ls
+: 1457920657:0;cd ~/dotfiles
+: 1457920657:0;ls
+: 1457920662:0;cd vim-files
+: 1457920663:0;ls
+: 1457920666:0;vim syntastic.vim
+: 1457920924:0;..
+: 1457920925:0;ls
+: 1457920929:0;git clone https://github.com/elixir-lang/vim-elixir.git ~/.vim/bundle/vim-elixir
+: 1457921275:0;ls
+: 1457921283:0;vim youCompleteMe.vim
+: 1457925181:0;:tmuxline
+: 1457925190:0;tmux --help
+: 1457925208:0;cd
+: 1457925210:0;ls -a
+: 1457925501:0;pip list
+: 1457925697:0;git submodule add git://github.com/pivotal/tmux-config.git bundle/tmux-config
+: 1457925708:0;cd ~/.vim/bundle
+: 1457925709:0;ls
+: 1457925712:0;git submodule add git://github.com/pivotal/tmux-config.git bundle/tmux-config
+: 1457925779:0;git clone git://github.com/pivotal/tmux-config.git
+: 1457927006:0;brew search ctags
+: 1457927016:0;ctags
+: 1457927040:0;ls
+: 1457927047:0;git clone https://github.com/majutsushi/tagbar.git
+: 1457927152:0;ls
+: 1457927160:0;vim tagBar.vim
+: 1457927240:0;vim ~/.vimrc
+: 1457927301:0;clear
+: 1457927314:0;vim
+: 1457927391:0;source ~/.vimrc
+: 1457927397:0;vim ~/.vimrc
+: 1457927414:0;source ~/.vimrc
+: 1457927423:0;vim ~/.vimrc
+: 1457927443:0;source ~/.vimrc
+: 1457927457:0;clear
+: 1457927526:0;vim ~/dotfiles/vim-files/syntastic.vim
+: 1457927725:0;git clone https://github.com/rhysd/vim-crystal.git
+: 1457927728:0;ls
+: 1457927970:0;git clone https://github.com/vim-ruby/vim-ruby.git
+: 1457928019:0;git clone git://github.com/tpope/vim-endwise.git
+: 1457928122:0;git clone https://github.com/mattn/emmet-vim.git
+: 1457928420:0;git clone https://github.com/othree/javascript-libraries-syntax.vim.git
+: 1457928536:0;vim ~/.vimrc
+: 1457928642:0;ls
+: 1457928658:0;vim javascriptLibrariesSyntax.vim
+: 1457928820:0;vim appearance.vim
+: 1457928847:0;vim
+: 1457928853:0;vim appearance.vim
+: 1457928955:0;vim
+: 1457928967:0;vim appearance.vim
+: 1457929044:0;clear
+: 1457930750:0;ls
+: 1457930768:0;cd Development/Elixir/introelixir
+: 1457930769:0;ls
+: 1457930784:0;mkdir chapter7
+: 1457930785:0;ls
+: 1457930793:0;cd chapter7
+: 1457930794:0;ls
+: 1457930827:0;clear
+: 1457930868:0;vim structDrop.ex
+: 1457931439:0;iex
+: 1457955703:0;clear
+: 1457955704:0;ls
+: 1457955732:0;vim ~/dotfiles/zsh
+: 1457955950:0;sz
+: 1457955953:0;clear
+: 1457955954:0;ll
+: 1457955958:0;l
+: 1457955961:0;clear
+: 1457955961:0;l
+: 1457955965:0;c
+: 1457955969:0;clear
+: 1457955972:0;pwd
+: 1457955976:0;ls
+: 1457956026:0;mv VimBackup2016 ~/Archive/Vim-Backup2016
+: 1457956027:0;ls
+: 1457956036:0;rm -rf antibody_darwin_amd64.tar.gz
+: 1457956059:0;rm -rf phoenixTest
+: 1457956103:0;mv hidden.txt ~/Archive/hidden.txt
+: 1457956126:0;mv hiddenlist.txt ~/Archive/hiddenlist.txt
+: 1457956127:0;ls
+: 1457956134:0;cd WebDev
+: 1457956134:0;ls
+: 1457956139:0;cd MyBlog1
+: 1457956140:0;ls
+: 1457956146:0;..
+: 1457956149:0;rbenv
+: 1457956153:0;irb
+: 1457956348:0;clear
+: 1457956350:0;ls
+: 1457956360:0;..
+: 1457956380:0;mv WebDev ~/Development/Web-Dev
+: 1457956382:0;cd
+: 1457956384:0;c
+: 1457956386:0;clear
+: 1457956403:0;vim ~/dotfiles/zsh/aliases.zsh
+: 1457956448:0;sz
+: 1457956450:0;c
+: 1457956457:0;cd Development
+: 1457956458:0;ls
+: 1457956473:0;ll
+: 1457956474:0;l
+: 1457956481:0;cd Javascript
+: 1457956481:0;ls
+: 1457956484:0;c
+: 1457956486:0;l
+: 1457956494:0;cd Pluralsight
+: 1457956499:0;..
+: 1457956501:0;cd pr
+: 1457956504:0;cd practice
+: 1457956508:0;ls
+: 1457956536:0;mkdir beginnerJS
+: 1457956538:0;dc beginnerJS
+: 1457956546:0;touch index.html
+: 1457956549:0;..
+: 1457956550:0;ls
+: 1457956553:0;cd practice
+: 1457956554:0;ls
+: 1457956579:0;mkdir triangle
+: 1457956582:0;cd triangle
+: 1457956587:0;touch index.html
+: 1457956605:0;touch triangle.js
+: 1457956621:0;touch style.css
+: 1457956622:0;ls
+: 1457956623:0;c
+: 1457956624:0;l
+: 1457956631:0;vim
+: 1457957020:0;clear
+: 1457957023:0;tmux
+: 1457957054:0;cd ~/.vim/bundle
+: 1457957056:0;ls
+: 1457957061:0;gcl https://github.com/fholgado/minibufexpl.vim.git
+: 1457957065:0;ls
+: 1457957091:0;cd ~/dotfiles/vim-files
+: 1457957093:0;ls
+: 1457957118:0;vim minibufexpl.vim
+: 1457957765:0;vim ~/.vimrc
+: 1457959820:0;vim ~/.tmux.conf
+: 1457959850:0;source ~/.tmux.conf
+: 1457959859:0;vim ~/.tmux.conf
+: 1457959937:0;tmux
+: 1457959957:0;c
+: 1457959970:0;vim ~/.tmux.conf
+: 1457960018:0;vim ~/dotfiles/vim-files/minibufexpl.vim
+: 1457960042:0;vim
+: 1457960057:0;source ~/.tmux.conf
+: 1457960068:0;cd Archive
+: 1457960070:0;ls
+: 1457960078:0;cd yadr_Vim_Dirs
+: 1457960079:0;ls
+: 1457960090:0;cd settings
+: 1457960091:0;ls
+: 1457960137:0;vim lightline.vim
+: 1457960184:0;cd dotfiles/vim-files
+: 1457960185:0;ls
+: 1457960196:0;vim lightline.vim
+: 1457960210:0;vim ~/.vimrc
+: 1457960268:0;z .vim
+: 1457960283:0;cd ~/.vim/bundle
+: 1457960284:0;ls
+: 1457960289:0;gcl https://github.com/itchyny/lightline.vim.git
+: 1457960350:0;tmux
+: 1457960354:0;vim
+: 1457965998:0;echo $TERM
+: 1457966229:0;cd ~/.vim/bundle
+: 1457966233:0;gcl https://github.com/godlygeek/csapprox.git
+: 1457966261:0;touch ~/dotfiles/vim-files/csapprox.vim
+: 1457966273:0;vim ~/.vimrc
+: 1457966429:0;vim
+: 1457966469:0;clear
+: 1457966471:0;ls
+: 1457966504:0;z /Users/VoxAir1618/Development/Javascript
+: 1457966505:0;ls
+: 1457966508:0;cd practice
+: 1457966510:0;ls
+: 1457966522:0;cd beginnerJS
+: 1457966522:0;ls
+: 1457966524:0;..
+: 1457966525:0;ls
+: 1457966529:0;cd triangle
+: 1457966529:0;ls
+: 1457966530:0;c
+: 1457966531:0;ls
+: 1457966540:0;vim .
+: 1457966555:0;vim triangle.js
+: 1457968209:0;gcl https://github.com/ternjs/tern_for_vim.git
+: 1457968216:0;nvm
+: 1457968225:0;cd Archive
+: 1457968226:0;ls
+: 1457968244:0;cd yadr_Vim_Dirs
+: 1457968245:0;ls
+: 1457968252:0;cd bundle
+: 1457968253:0;ls
+: 1457968373:0;..
+: 1457968376:0;ls
+: 1457968385:0;..
+: 1457968387:0;ls
+: 1457968396:0;cd Vim-Backup2016
+: 1457968399:0;ls -a
+: 1457968430:0;cd .yadr
+: 1457968431:0;ls
+: 1457968444:0;cd zsh
+: 1457968445:0;ls
+: 1457968460:0;..
+: 1457968463:0;ls
+: 1457968467:0;cd chrome
+: 1457968468:0;ls
+: 1457968474:0;..
+: 1457968475:0;ks
+: 1457968477:0;ls
+: 1457968494:0;cd ruby
+: 1457968495:0;ls
+: 1457968502:0;..
+: 1457968504:0;cd irb
+: 1457968505:0;ls
+: 1457968509:0;..
+: 1457968514:0;cd tmux
+: 1457968514:0;ls
+: 1457968527:0;cp tmux.conf
+: 1457968535:0;rm -rf ~/.tmux.conf
+: 1457968548:0;cp tmux.conf ~/.tmux.conf
+: 1457968569:0;tmux
+: 1457968585:0;source ~/.tmux.conf
+: 1457968614:0;cd Archive
+: 1457968615:0;ls
+: 1457968633:0;cd Vim-Backup2016
+: 1457968634:0;ls
+: 1457968641:0;cd zsh
+: 1457968642:0;ls
+: 1457968653:0;vim zsh.after
+: 1457968694:0;vim zshenv.backup
+: 1457968702:0;ls
+: 1457968721:0;vim zshenv
+: 1457968730:0;ll
+: 1457968748:0;..
+: 1457968750:0;ls
+: 1457968762:0;..
+: 1457968764:0;ls
+: 1457968782:0;vim Vim-Backup2016/dot_secrets
+: 1457968837:0;vim ~/dotfiles/zsh/exports.zsh
+: 1457968873:0;..
+: 1457968875:0;ls
+: 1457968878:0;ll
+: 1457968882:0;l
+: 1457968900:0;ll
+: 1457968902:0;l
+: 1457968904:0;c
+: 1457968905:0;ll
+: 1457968907:0;c
+: 1457968908:0;l
+: 1457968926:0;cd .nvm
+: 1457968928:0;ls
+: 1457968941:0;less README.markdown
+: 1457969087:0;vim ~/dotfiles/zsh/exports.zsh
+: 1457969139:0;env
+: 1457969244:0;cd
+: 1457969246:0;l
+: 1457969287:0;cd ~/.exenv
+: 1457969288:0;ls
+: 1457969299:0;less README.md
+: 1457969428:0;cd ~/dotfiles/zsh
+: 1457969428:0;ls
+: 1457969440:0;vim exports.zsh
+: 1457969624:0;echo $PATH
+: 1457969667:0;source ~/.zshrc
+: 1457969677:0;echo $PATH
+: 1457969714:0;iex
+: 1457969738:0;vim exports.zsh
+: 1457969779:0;source ~/.zshrc
+: 1457969789:0;vim exports.zsh
+: 1457969827:0;source ~/.zshrc
+: 1457969832:0;iex
+: 1457969855:0;vim exports.zsh
+: 1457969908:0;node
+: 1457969929:0;elixir
+: 1457969934:0;iex
+: 1457970022:0;ls
+: 1457970029:0;vim setopt.zsh
+: 1457970098:0;ls
+: 1457970109:0;vim functions.zsh
+: 1457970196:0;source ~/.zshrc
+: 1457970200:0;iex
+: 1457970210:0;elixir
+: 1457970224:0;cd ~/.exenv
+: 1457970225:0;ls
+: 1457970233:0;less README.md
+: 1457970333:0;echo 'eval "$(exenv init -)"' >> ~/dotfiles/zsh/exports.zsh
+: 1457970346:0;iex
+: 1457970358:0;nvm
+: 1457970375:0;tern
+: 1457970389:0;cd ~/.vim/bundle
+: 1457970390:0;ls
+: 1457970407:0;cd tern_for_vim
+: 1457970420:0;npm install
+: 1457970480:0;ls
+: 1457970495:0;less README.md
+: 1457971233:0;cd
+: 1457971254:0;vim ~/.tern-config
+: 1457971700:0;cd Development
+: 1457971984:0;z /Users/VoxAir1618/.vim
+: 1457971987:0;cd bundle
+: 1457971991:0;gcl https://github.com/sheerun/vim-polyglot.git
+: 1458090997:0;cd Development/Javascript/practice
+: 1458090997:0;ls
+: 1458091000:0;cd triangle
+: 1458091001:0;ls
+: 1458091004:0;clear
+: 1458091005:0;vim
+: 1458101185:0;:q
+: 1458101187:0;clear
+: 1458101189:0;cd
+: 1458101210:0;tmux
+: 1458101223:0;vim
+: 1458101798:0;vim ~/.tmux.conf
+: 1458101893:0;tmux
+: 1458102006:0;ls
+: 1458102013:0;cd /dev/disk2
+: 1458102013:0;ls
+: 1458102017:0;diskutil list
+: 1458102044:0;cd /dev/disk2/s1
+: 1458102560:0;tmux source ~/.tmux.conf
+: 1458102562:0;ls
+: 1458102564:0;clear
+: 1458102580:0;vim
+: 1458102658:0;vim ~/.tmux.conf
+: 1458102742:0;tmux source ~/.tmux.conf
+: 1458133871:0;ls
+: 1458133934:0;mv Archer\ Season\ 6.AAC ~/Archive/Archer-Season-6
+: 1458133935:0;ls
+: 1458133937:0;clear
+: 1458133939:0;vim
+: 1458133954:0;clear
+: 1458133955:0;tmux
+: 1458133963:0;clear
+: 1458134461:0;ls
+: 1458134464:0;l
+: 1458134498:0;ls
+: 1458134500:0;cd
+: 1458134503:0;l
+: 1458134504:0;ll
+: 1458134509:0;clear
+: 1458134514:0;j
+: 1458134520:0;java
+: 1458134538:0;c
+: 1458134548:0;l
+: 1458134552:0;clear
+: 1458134555:0;vim
+: 1458134566:0;c
+: 1458136815:0;scala
+: 1458136819:0;brew search scala
+: 1458136850:0;brew install scala
+: 1458137896:0;c
+: 1458137905:0;cd Development/go
+: 1458137911:0;cd Development/Golang/src
+: 1458137912:0;ls
+: 1458137925:0;cd Gobooknew/
+: 1458137927:0;ls
+: 1458137944:0;vim scanf.go
+: 1458138187:0;go run scanf.go
+: 1458138234:0;vim scanf.go
+: 1458138454:0;go run scanf.go
+: 1458138488:0;vim scanf.go
+: 1458138548:0;go run scanf.go
+: 1458138602:0;vim scanf.go
+: 1458138691:0;go run scanf.go
+: 1458138700:0;vim scanf.go
+: 1458138772:0;go run scanf.go
+: 1458138826:0;ls
+: 1458138836:0;vim array1.go
+: 1458138918:0;go run array1.go
+: 1458138972:0;vim array2.go
+: 1458139154:0;go run array2.go
+: 1458139181:0;exercism
+: 1458139214:0;exercism elixer
+: 1458139224:0;exercism fetch elixir
+: 1458139250:0;cd ~/exercism/elixir
+: 1458139251:0;ls
+: 1458139254:0;vim hello-world
+: 1458139295:0;ls
+: 1458139297:0;cd hello-world
+: 1458139298:0;ls
+: 1458139308:0;mix test hello_world_test.exs
+: 1458139320:0;less README.md
+: 1458139337:0;elixir hello_world
+: 1458139344:0;elixir hello_world_test.exs
+: 1458139362:0;c
+: 1458139367:0;vim hello_world.exs
+: 1458139442:0;iex
+: 1458139552:0;ccc
+: 1458139553:0;c
+: 1458164841:0;scala
+: 1458165038:0;sbt console
+: 1458165045:0;sbt
+: 1458165048:0;sbtconsole
+: 1458165050:0;scala
+: 1458168398:0;c
+: 1458168399:0;ls
+: 1458168401:0;cd
+: 1458168401:0;c
+: 1458168409:0;vim WEEK GOALS
+: 1458168421:0;ls
+: 1458168422:0;l
+: 1458168423:0;ll
+: 1458168424:0;c
+: 1458168436:0;vim WEEK_GOALS
+: 1458168582:0;ls
+: 1458168584:0;cd Work_Files_notes
+: 1458168585:0;ls
+: 1458168622:0;vim Condensed_Items
+: 1458206498:0;tmux
+: 1458207123:0;vim WEEK_GOALS
+: 1458220981:0;tmux
+: 1458220989:0;cd Development
+: 1458220990:0;ls
+: 1458220991:0;cd Elixir
+: 1458220992:0;ls
+: 1458221003:0;brew search meteor
+: 1458221052:0;lsc
+: 1458221054:0;c
+: 1458221055:0;ls
+: 1458221059:0;cd
+: 1458221060:0;ls
+: 1458221065:0;cd Projects
+: 1458221065:0;ls
+: 1458221073:0;cd
+: 1458221075:0;cd Frameworks
+: 1458221076:0;ls
+: 1458221078:0;ls -a
+: 1458221084:0;c
+: 1458221132:0;psql
+: 1458221148:0;psql -h localhost
+: 1458221166:0;psql -l
+: 1458221223:0;psqlstart
+: 1458221231:0;psql -u localhost
+: 1458221236:0;psql --help
+: 1458221450:0;mix phoenix.new seat_saver
+: 1458223673:0;cd Development/Elixir
+: 1458223673:0;ls
+: 1458223678:0;cd 30dayselixir
+: 1458223678:0;ls
+: 1458223682:0;..
+: 1458223683:0;ls
+: 1458223688:0;rm -rf 30dayselixir
+: 1458223697:0;gcl https://github.com/seven1m/30-days-of-elixir.git
+: 1458224691:0;ls
+: 1458224696:0;cd 30`
+: 1458224701:0;cd 30-days-of-elixir
+: 1458224701:0;ls
+: 1458224722:0;vim 02-unit-testing.exs
+: 1458225369:0;ls
+: 1458225421:0;c
+: 1458225426:0;cd Development/Elixir
+: 1458225426:0;ls
+: 1458225428:0;cd pr
+: 1458225430:0;c
+: 1458225433:0;ls
+: 1458225455:0;mix
+: 1458225476:0;mix -h
+: 1458225536:0;elixir -v
+: 1458225541:0;exenv
+: 1458225552:0;exenv version
+: 1458225555:0;exenv versions
+: 1458225569:0;exenv install
+: 1458225585:0;exenv install -l
+: 1458225620:0;c
+: 1458225621:0;ls
+: 1458225627:0;mix new triangle
+: 1458225632:0;cd triangle
+: 1458225633:0;ls
+: 1458225639:0;mix test
+: 1458225654:0;ls
+: 1458225656:0;l
+: 1458225658:0;ll
+: 1458225659:0;c
+: 1458225660:0;l
+: 1458225670:0;vim
+: 1458225787:0;q
+: 1458225959:0;ls
+: 1458225960:0;cd
+: 1458225961:0;ls
+: 1458225964:0;clear
+: 1458226059:0;meteor
+: 1458226064:0;cd Frameworks
+: 1458226064:0;ls
+: 1458226069:0;curl https://install.meteor.com/ | sh
+: 1458226959:0;cd
+: 1458226966:0;cd Development/Haskell
+: 1458226966:0;ls
+: 1458226992:0;mkdir haskellProgLang
+: 1458226994:0;cd haskellProgLang
+: 1458227008:0;vim varfun.hs
+: 1458227178:0;vim ~/.tmux.conf
+: 1458227345:0;tmux -kill
+: 1458227348:0;ls
+: 1458227350:0;c
+: 1458227360:0;tmux source ~/.tmux.conf
+: 1458227403:0;vim 06-record.exs
+: 1458227428:0;..
+: 1458227429:0;ls
+: 1458227433:0;vim stick.exs
+: 1458263777:0;cd .vim
+: 1458263778:0;ls
+: 1458263780:0;cd colors
+: 1458263780:0;ls
+: 1458263789:0;grep paper
+: 1458263881:0;mv PaperColor.vim PaperColorOld.vim
+: 1458263885:0;ls
+: 1458263897:0;..
+: 1458263898:0;ls
+: 1458263909:0;cd bundle
+: 1458263910:0;ls
+: 1458263919:0;gcl https://github.com/NLKNguyen/papercolor-theme.git
+: 1458264318:0;git clone git://github.com/tpope/vim-unimpaired.git
+: 1458264385:0;ls
+: 1458264387:0;c
+: 1458264399:0;cd ~/dotfiles
+: 1458264400:0;ls
+: 1458264412:0;cd vim-files
+: 1458264412:0;ls
+: 1458264431:0;vim appearance.vim
+: 1458265637:0;z /Users/VoxAir1618/.vim/bundle
+: 1458265640:0;pwd
+: 1458265651:0;gcl https://github.com/fatih/vim-go.git
+: 1458265683:0;l
+: 1458265715:0;gcl https://github.com/nathanaelkane/vim-indent-guides.git
+: 1458265736:0;vim ~/.vimrc
+: 1458265867:0;z /Users/VoxAir1618/dotfiles
+: 1458265869:0;ls
+: 1458265878:0;cd vim-files
+: 1458265879:0;ls
+: 1458265911:0;touch vim-golang.vim
+: 1458265912:0;ls
+: 1458265963:0;cd ~/.vim/bundle
+: 1458265968:0;git clone https://github.com/neovimhaskell/haskell-vim.git
+: 1458265995:0;vim ~/.vimrc
+: 1458266408:0;bk
+: 1458266411:0;ls
+: 1458266439:0;touch vim-haskell.vim
+: 1458266443:0;vim ~/.vimrc
+: 1458266497:0;vim appearance.vim
+: 1458267104:0;ls
+: 1458267106:0;c
+: 1458267111:0;pwd
+: 1458267126:0;cd dotfiles/vim-files/
+: 1458267127:0;ls
+: 1458267137:0;touch indentGuides.vim
+: 1458267217:0;echo $SHELL
+: 1458267223:0;echo $)TERM
+: 1458267227:0;echo $TERM
+: 1458267236:0;ls
+: 1458267238:0;..
+: 1458267239:0;ls
+: 1458267245:0;cd zsh
+: 1458267245:0;ls
+: 1458267249:0;vim aliases.zsh
+: 1458267980:0;ls
+: 1458267982:0;c
+: 1458267984:0;tmux
+: 1458267994:0;echo $SHELL
+: 1458268000:0;echo $TERM
+: 1458268029:0;vim ~/.tmux.conf
+: 1458268732:0;ls
+: 1458268738:0;vim aliases.zsh
+: 1458268800:0;mux
+: 1458268880:0;..
+: 1458268883:0;cd vim-files
+: 1458268884:0;ls
+: 1458268894:0;vim minibufexpl.vim
+: 1458269341:0;source ~/.vimrc
+: 1458269375:0;tmux -kill
+: 1458269387:0;tmux --help
+: 1458269391:0;tmux kill
+: 1458269409:0;tmux kill-session
+: 1458269416:0;vim ls
+: 1458269431:0;ls
+: 1458269444:0;vim aliases.zsh
+: 1458269500:0;..
+: 1458269502:0;cd vim-files
+: 1458269505:0;vim minibufexpl.vim
+: 1458269528:0;source ~/.vimrc
+: 1458269566:0;vim
+: 1458269623:0;ld
+: 1458269626:0;ls
+: 1458269628:0;l
+: 1458269629:0;c
+: 1458269631:0;vim
+: 1458269655:0;cd dotfiles/vim-files
+: 1458269655:0;ls
+: 1458269661:0;vim minibufexpl.vim
+: 1458269677:0;ls
+: 1458269708:0;vim ~/.tmux.conf
+: 1458269787:0;l
+: 1458269788:0;cd
+: 1458269789:0;l
+: 1458269792:0;ls
+: 1458269794:0;ll
+: 1458269796:0;c
+: 1458269799:0;cd Development
+: 1458269799:0;ls
+: 1458269801:0;cd Elixir
+: 1458269802:0;ls
+: 1458269855:0;mkdir laernElixir
+: 1458269880:0;cd laernElixir
+: 1458269881:0;ls
+: 1458269909:0;vim ~/dotfiles/zsh
+: 1458270143:0;dev
+: 1458270152:0;devgolang
+: 1458270156:0;ls
+: 1458270200:0;l
+: 1458270201:0;c
+: 1458270223:0;cd
+: 1458270225:0;ls
+: 1458270226:0;ls -a
+: 1458270418:0;ls
+: 1458270419:0;c
+: 1458270420:0;ls
+: 1458270422:0;c
+: 1458270431:0;cd Development
+: 1458270432:0;ls
+: 1458270438:0;cd Elixir/laernElixir
+: 1458270439:0;ls
+: 1458270439:0;c
+: 1458270502:0;mkdir IntroBook
+: 1458270507:0;cd IntroBook
+: 1458270535:0;mkdir Example_3-7
+: 1458270538:0;cd Example_3-7
+: 1458270552:0;vim drop.ex
+: 1458277836:0;c
+: 1458277838:0;l
+: 1458277840:0;ll
+: 1458277841:0;cd
+: 1458277842:0;l
+: 1458277843:0;ll
+: 1458277846:0;c
+: 1458277847:0;ls
+: 1458277849:0;l
+: 1458277851:0;c
+: 1458277852:0;ls
+: 1458277853:0;ll
+: 1458277865:0;ls
+: 1458277867:0;c
+: 1458277868:0;ls
+: 1458277873:0;c
+: 1458277885:0;bk
+: 1458277887:0;ls
+: 1458277890:0;vim drop.ex
+: 1458278114:0;ls
+: 1458278119:0;c
+: 1458278120:0;tmux
+: 1458278124:0;ls
+: 1458278129:0;c
+: 1458278167:0;vim
+: 1458278184:0;bk
+: 1458278185:0;ls
+: 1458278187:0;vim drop.ex
+: 1458278202:0;cd
+: 1458278206:0;cd ~/dotfiles
+: 1458278206:0;ls
+: 1458278209:0;lll
+: 1458278210:0;l
+: 1458278223:0;git status
+: 1458278241:0;git add.
+: 1458278249:0;git add
+: 1458278257:0;git add .
